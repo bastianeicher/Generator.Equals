@@ -34,7 +34,7 @@ Requires C# 9.0+. The type **must be `partial`**.
 
 | Attribute | Use When |
 |-----------|----------|
-| `[DefaultEquality]` | Default comparer. Also opts a member in when `[Equatable(Explicit = true)]` is used. |
+| `[DefaultEquality]` | Default comparer. |
 | `[IgnoreEquality]` | Skip this member |
 | `[OrderedEquality]` | Compare collection elements in order (like `SequenceEqual`) |
 | `[UnorderedEquality]` | Compare collection elements ignoring order |
